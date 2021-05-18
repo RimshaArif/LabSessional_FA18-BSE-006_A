@@ -1,0 +1,12 @@
+.recipe {
+  border: 2px solid black;
+  margin-bottom: 5px;
+  margin-top: 40px;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.recipe button {
+  margin-top: 40px;
+  background-color: black;
+  color: white;
+}
