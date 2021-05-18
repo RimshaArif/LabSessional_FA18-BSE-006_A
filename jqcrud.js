@@ -86,7 +86,7 @@ function loadRecipies() {
       for (var i = 0; i < response.length; i++) {
         var rec = response[i];
         recipes.append(
-          `<div class="recipe" data-id="${rec.id}"><h3>${rec.name}</h3><p><button class=" btn-sm float-right">Delete</button><button class=" btn-sm float-right">Edit</button> ${rec.email}</p></div>`
+          `<div class="recipe" data-id="${rec.id}"><h3>${rec.name}</h3><p><button class="btn btn-danger" >Delete</button><button class="btn btn-warning">Edit</button> ${rec.email}</p></div>`
         );
         // recipes.append("<div><h3>" + rec.title + "</h3></div>");
       }
