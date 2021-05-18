@@ -6,22 +6,34 @@
     <script src="bootstrap.min.js"></script>
     <script src="jqcruda.js"></script>
     <link rel="stylesheet" href="bootstrap.min.css" />
-    <link rel="stylesheet" href="jqstyles.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="container">
-    <h1>Albums API Client</h1>
+  <body class="container" style="background-color: antiquewhite">
+    <h1 style="text-align: center">Albums</h1>
 
-    <!-- Button trigger modal -->
-    <button
-      type="button"
-      class="btn btn-primary btn-lg"
-      data-toggle="modal"
-      data-target="#addModal"
-    >
-      Add Album
-    </button>
-
-    <!-- Modal -->
+    <div class="text-center">
+      <button
+        type="button"
+        class="btn btn-primary btn-lg"
+        data-toggle="modal"
+        data-target="#addModal"
+        style="background-color: black; margin-top: 40px"
+      >
+        Add Album
+      </button>
+      <a
+        href="users.html"
+        class="btn btn-info"
+        role="button"
+        style="
+          background-color: black;
+          margin-top: 40px;
+          padding: 10px;
+          font-size: large;
+        "
+        >Previous Page</a
+      >
+    </div>
     <div
       class="modal fade"
       id="addModal"
